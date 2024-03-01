@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparateur de Forfaits de Streaming Vidéo</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-blue-500 text-white p-4">
+        <h1 class="text-center text-xl">Comparateur de Forfaits de Streaming Vidéo</h1>
+    </header>
+    <main class="p-4">
+        <section>
+            <h2 class="text-lg mb-4">Trouvez le meilleur forfait pour vous !</h2>
+            <form id="searchForm" class="space-y-4">
+                <div>
+                    <label for="streamingService" class="block mb-2">Service de Streaming :</label>
+                    <select id="streamingService" class="w-full border-gray-300 rounded-md">
+                        <option value="">Sélectionnez un service</option>
+                        <!-- Les options seront générées dynamiquement -->
+                    </select>
+                </div>
+                <div>
+                    <label for="country" class="block mb-2">Pays :</label>
+                    <select id="country" class="w-full border-gray-300 rounded-md">
+                        <option value="">Sélectionnez un pays</option>
+                        <!-- Les options seront générées dynamiquement -->
+                    </select>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded-md">Comparer les forfaits</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-blue-500 text-white p-4 text-center">
+        <p>© 2024 Comparateur de Forfaits de Streaming Vidéo. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
